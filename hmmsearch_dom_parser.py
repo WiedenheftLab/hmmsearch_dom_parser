@@ -37,15 +37,15 @@ hmmsearch_dom_parser dependencies:
 
 Input Paramaters (REQUIRED):
 ----------------------------
-	-i/--input		domtblour			Specify a hmmsearch domtblout file
+	-i/--input		domtblour		Specify a hmmsearch domtblout file
 
 	-o/--output		Output file	        Specify a output filename.
 	
-	-e/--evalue     i-Evalue            Specify an E-value cut off (i.e., 0.001).
+	-e/--evalue     	i-Evalue            	Specify an E-value cut off (i.e., 0.001).
 
 Basic Options:
 --------------
-	-h/--help		HELP			    Shows this help text and exits the run.
+	-h/--help		HELP			Shows this help text and exits the run.
 
       	'''))
 parser.add_argument('-i', '--input', required=True, type=str, dest='filename', help='Specify a hmmsearch domtblout file.\n')
